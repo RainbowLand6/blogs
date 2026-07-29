@@ -16,5 +16,5 @@ jobs:
           curl -X POST \
             -H "Authorization: token ${{ secrets.BLOGS_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/1104381746/hugo-blog/dispatches \
+            https://api.github.com/repos/RainbowLand6/hugo-blog/dispatches \
             -d '{"event_type":"blogs-updated"}'
